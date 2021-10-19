@@ -19,7 +19,8 @@ public class Main {
         lomito2.tamanio="chico";
         lomito2.caracteristicas();
 
-
-        lomito2.dormir();
+        Perro lomito3= new Perro("Milaneso");
+        Perro lomito4= new Perro("Sr. Kawamura", "Husky", 2, "Gigante");
+        lomito4.caracteristicas();
     }
 }
